@@ -37,7 +37,7 @@ if __name__ == "__main__":
     gen_image = input("want to generate the images? (y/n)")
     assert gen_image in ('y', 'n')
     if gen_image == 'y':
-        for i, sample in enumerate(result[:10]):
+        for i, sample in enumerate(result):
             nodes = {
                 1: (0, 2), 2: (1, 2), 3: (2, 2),
                 4: (0, 1), 5: (1, 1), 6: (2, 1),
